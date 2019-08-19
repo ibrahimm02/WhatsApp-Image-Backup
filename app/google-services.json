@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "483730169028",
+    "firebase_url": "https://whatsappbackup-bf166.firebaseio.com",
+    "project_id": "whatsappbackup-bf166",
+    "storage_bucket": "whatsappbackup-bf166.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483730169028:android:7cb0d27edd44fb2e",
+        "android_client_info": {
+          "package_name": "com.ibrahim.whatsappbackup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483730169028-pfn98knj7g5poibna1v6pblsdpp6i3b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibrahim.whatsappbackup",
+            "certificate_hash": "16d51f4cb0319d4b45508fac40ae5ca5502ddea6"
+          }
+        },
+        {
+          "client_id": "483730169028-6ljgkb7oeumlqchpmssii6qglk0orh4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQ3Nxu8eTRzlULQD9t5Gb7FjLnQMvlMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483730169028-6ljgkb7oeumlqchpmssii6qglk0orh4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

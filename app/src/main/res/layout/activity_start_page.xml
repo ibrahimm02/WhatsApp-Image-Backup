@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e90ff"
+    tools:context=".StartPageActivity">
+
+    <ImageView
+        android:id="@+id/start_page_applogo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logo4" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_page_applogo"
+        android:layout_marginTop="10dp"
+        android:text="All Your Images at One Place"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/start_page_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_slogan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:padding="15dp"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/start_page_signUp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_page_login_button"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:padding="15dp"
+        android:text="NEED AN ACCOUNT?"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp" />
+
+</RelativeLayout>
